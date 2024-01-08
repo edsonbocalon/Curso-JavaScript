@@ -5,7 +5,7 @@ var y = 2;
 console.log(x = x + y);
 console.log(x += y);
 
-// subtracao
+// subtração
 console.log(x -= y);
 
 // multiplicação
