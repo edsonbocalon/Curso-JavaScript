@@ -1,33 +1,26 @@
-let x = 5; // var x = 5;
+// parseFloat 10.0
 
-const y = 10;
+console.log(parseFloat('12.999'));
+console.log(Number.parseFloat('12.999'));
 
-x = 12;
+// parseInt
 
-console.log(x);
+console.log(parseInt('10'));
+console.log(parseInt(16.96));
 
-if(true){
+// toFixed
 
-  let x = 20;
+console.log(23.51515165.toFixed(1));
 
-  console.log(x);
+// isNaN
 
-  const y = 50;
+console.log(isNaN("teste"));
+console.log(isNaN(12));
+console.log(isNaN("14"));
 
-  console.log('const if ' + y);;
+// MAX_VALUE e MIN_VALUE
 
-}
+console.log(Number.MAX_VALUE);
+console.log(Number.MIN_VALUE);
 
-console.log(x);
-
-if(20 > 10){
-
-  const y = 100;
-
-  console.log('const if 3 ' + y);
-
-}
-
-for(let x = 0; x < 10; x++) {
-  console.log(x);
-}
+console.log(2.7976931348623157e+308);
