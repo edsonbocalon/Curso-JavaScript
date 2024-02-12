@@ -1,6 +1,6 @@
 let pessoa = {
-    nome: "Matheus",
-    idade: 29,
+    nome: "Edinho",
+    idade: 37,
     falar: function() {
       console.log("Olá, tudo bem?");
     },
